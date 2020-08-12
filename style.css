@@ -1,0 +1,72 @@
+.title-banner {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+.forecast-day {
+    background-color: lightBlue;
+    color: white;
+    margin-left: 3px;
+    padding-top: 10px;
+}
+
+.navbar {
+    margin-right: 0;
+}
+
+.current-box {
+    margin-right: 10px;
+}
+
+input {
+    margin-left: 5px;
+}
+
+.prev-city {
+    background-color: white;
+    color: darkGray;
+    border: 2px solid darkGray;
+}
+
+button {
+    background-color: green;
+    border: 2px solid cornflowerblue;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+button:active {
+    background-color: rgb(71, 107, 173);
+}
+
+button:hover {
+    border: 2px solid rgb(53, 53, 53);
+}
+
+button:prev-city {
+    background-color: white;
+    color: darkGray;
+    border: 2px solid rgb(53, 53, 53);
+}
+
+.list-group-item {
+    background-color: lightBlue;
+    border: none;
+    color: white;
+}
+
+.clear {
+    background-color: green;
+    border: 2px solid rgb(161, 63, 63);
+}
+
+.clear:active {
+    background-color: rgb(107, 42, 42);
+}
+
+.list-group-item:active {
+    background-color: rgb(71, 107, 173);
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Application</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Weather Application</h1>
+      <p class="lead">Search the Weather By City</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <input autofocus placeholder="Search By City" class="form-control col-md-12" type="text" autocomplete="off" name="search" id="city" />
+            </div>
+            <div class="btn col-md-2">
+                <a href="#"><i class="fa fa-search" style="font-size:24px"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="jumbotron col-md-6">
+            <h1 class="city">City and Date</h1>
+            <p id="humidity">Humidity</p>
+            <p id="windspeed">Wind Speed</p>
+            <p id="uvindex">UV Index</p>
+        </div>
+
+        <div class="row col-md-2">
+            <div>
+                City #1
+            </div>
+        </div>
+        <div class="row col-md-2">
+            <div>
+                City #2
+            </div>
+        </div>
+        <div class="row col-md-2">
+            <div>
+                City #3
+            </div>
+        </div>
+        <div class="row col-md-2">
+            <div>
+                City #4
+            </div>
+        </div>
+        <div class="row col-md-2">
+            <div>
+                City #5
+            </div>
+        </div>
+        <div class="row col-md-2">
+            <div>
+                City #6
+            </div>
+        </div>
+        <div class="row col-md-2">
+            <div>
+                City #7
+            </div>
+        </div>
+        <div class="row col-md-2">
+            <div>
+                City #8
+            </div>
+        </div>
+        <div class="row col-md-2">
+            <div>
+                City #9
+            </div>
+        </div>
+        <div class="row col-md-2">
+            <div>
+                City #10
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
